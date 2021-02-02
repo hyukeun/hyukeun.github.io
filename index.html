@@ -2,132 +2,239 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content=" Eunhyuk ">
-
-  <title>HYUK's AREA</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
-  <!-- Custom styles for this template -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eunhyuk's Portfolio</title>
+  <meta name="description" content="Hi :) My name is Eunhyuk" />
+  <meta name="author" content="Eunhyuk" />
+  <script src="https://kit.fontawesome.com/0f0afa2b80.js" crossorigin="anonymous"></script>
+  <!-- Boxicons -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Add Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+  <!-- Favicon  -->
+  <link rel="icon" type="image/png" href="imgs/favicon-maple-leaf-.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">EUNHYUK.LOG</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="post.html">Post</a>
-          </li>
-        </ul>
-      </div>
+  <!--Navbar-->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <i class="far fa-folder-open"></i>
+      <a herf="#">KangEunHyuk</a>
     </div>
+    <ul class="navbar__menu">
+      <li class="navbar__menu__item active" data-link="#home">Home</li>
+      <li class="navbar__menu__item" data-link="#about">About</li>
+      <li class="navbar__menu__item" data-link="#skills">Skills</li>
+      <li class="navbar__menu__item" data-link="#Mywork">My work</li>
+      <li class="navbar__menu__item" data-link="#Contact">Contact</li>
+    </ul>
+    <!-- Toggle button -->
+    <button class="navbar__toggle-btn">
+      <i class="fas fa-bars"></i>
+    </button>
   </nav>
-
-  <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/homeBack.png')">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="site-heading">
-            <h1>EUNHYUK.LOG</h1>
-            <span class="subheading">삶의 더 좋은 방향으로 가게 하는 개발자가 되자.</span>
+  <!-- Home -->
+  <section id="home">
+    <div class="home__container">
+      <h1 class="home__title"> Make Everyting <br /> Front-end Developer </h1>
+      <h2 class="home__description"> Readability, Simplicity </h2>
+      <button class="home__contact"> Contact Me </button>
+    </div>
+  </section>
+  <!-- About -->
+  <section id="about" class="section">
+    <h1>ABOUT ME</h1>
+    <h2>"반갑습니다. 인간미가 담긴 프론트엔드 개발자가 되고 싶은 강은혁입니다."</h2>
+    <p> 코딩에 관심이 있어 발을 들였다가 지금은 개발자의 길을 가고 있는 강은혁입니다. 개발자라는 것을 알게 해준 것은 교보문고에서부터 시작되었습니다.<br/>
+        어떠한 새로운 책이 나왔는지 책을 보러가다 코딩관련 책이있어 읽게 된 후 코딩에 관심이 생겨 코딩을 배울수 있는 곳을 알아보았고 배움을 시작하게 되었습니다. </p>
+    <p> 호기심이 많고 이것저것 새로운 것을 다루거나 만드는 것을 좋아했기 때문인지 코딩으로 웹이 작동하는 것을 직접 보았을 때 제 눈에는 너무 신기했습니다. 그동안 아무 생각 없이 사용해 온 인터넷사이트나, 모바일 환경들이 어떻게 작동하는 것인지 코딩을 통해서 이해가 되기 시작했습니다.
+        코드스테이츠에서 수업을 받다가 프론트엔드,백엔드,데이터베이스 등 전체적인 풀스택 과정으로 배우게 되는데 그 중 디자인 적으로 가미가 되고 사용자에게 보여지는 인간미있는 프론트엔드 개발자가 되어야겠다고 생각했습니다.</p>
+    <p> 그런 생각이 든 이후, 시간을 투자하여 개발 공부를 하고 있습니다. 늦은 만큼 남들보다 더 열심히 개발을 배워가고 있습니다. 개발의 처음 시작은 javascript로 시작하였습니다. node.js, 간단한 CS 수업, react, mysql등 배우게 되었고 마지막에 진행한 프로젝트는 아마존 AWS를 통해 배포한 경험하였습니다.<br/>
+        GitHub을 통해 소스코드 및 프로젝트를 관리하고 협업으로 프로젝트를 진행하였으며, 프로젝트 관리툴로는 slack, google drive, github, notion, miro 등을 경험하였습니다.
+    <!-- <div class="about__BootCamp">
+      <div class="BootCamp">
+        <img src="imgs/BootCamp/Codestates.png" alt="Codestates" class="BootCamp__rogo">
+        <div class="BootCamp__description">
+          <p class="BootCamp__name">Codestates</p>
+          <p class="BootCamp__period">Full Free Course </p>
+        </div>
+      </div>
+      <div class="BootCamp">
+        <img src="imgs/BootCamp/Codestates.png" alt="Codestates" class="BootCamp__rogo">
+        <div class="BootCamp__description">
+          <p class="BootCamp__name">Codestates</p>
+          <p class="BootCamp__period">Full Free Course </p>
+        </div>
+      </div> -->
+  </section>
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <div class="section__container">
+      <h1>SKILLS</h1>
+      <h2>Skills & Attributes</h2>
+          <div class="skills__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                      <h2 class="major__title">Front-end</h2>
+                      <h3 class="major__description"> HTML, CSS, Javascript, <br />React
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                    <h2 class="major__title">Back-end</h2>
+                    <h3 class="major__description"> Node.js, Postman
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                    <h2 class="major__title">DataBase</h2>
+                    <h3 class="major__description"> Mysql,AWS
+            </div>
+    </div>
+<!-- <div class="skillset">
+        <div class="skillset__left">
+          <h3 class="skillset__title">Skills</h3>
+          <div class="skill">
+            <div class="skill__description">
+              <span>HTML</span>
+              <span>99%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 99%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>JavaScript</span>
+              <span>90%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>TypeScript</span>
+              <span>80%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>React</span>
+              <span>88%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 88%;"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
+              <span>NodeJS</span>
+              <span>77%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 77%;"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skillset__right">
+          <div class="tools">
+            <h3 class="skillset__title">Tools</h3>
+            <ul class="tools__list">
+              <li><span>Visual Studio Code</span></li>
+              <li><span>IntelliJ</span></li>
+              <li><span>Android Studio Code</span></li>
+              <li><span>iOS development tools</span></li>
+              <li><span>Sketch app</span></li>
+            </ul>
+          </div>
+          <div class="etc">
+            <h3 class="skillset__title">Etc</h3>
+            <ul class="etc__list">
+              <li><span>Git</span></li>
+              <li><span>Scrum master</span></li>
+              <li><span>Math</span></li>
+            </ul>
           </div>
         </div>
       </div>
+    </div> -->
     </div>
-  </header>
-
-  <!-- Main Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Dev.log Settlement Project
-            </h2>
-            <h3 class="post-subtitle">
-              github.io page로 정착하기.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">EUNHYUK</a>
-            on January 18, 2021</p>
-        </div>
-        <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
+  </section>
+  <!-- Mywork -->
+  <section id="Mywork" class="section">
+    <div class="section__container">
+      <h1>My work</h1>
+      <h3>Project</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All<span class="category__count">1</span>
+        </button>
+        <button class="category__btn" data-filter="front-end">
+          Front-end<span class="category__count">1</span>
+        </button>
+        <!-- <button class="category__btn" data-filter="Clone">
+          Clone<span class="category__count">1</span>
+        </button> -->
+      </div>
+      <div class="work__projects">
+        <a href="http://wonderful-travler.com/" class="project" target="blank" data-type="front-end">
+          <img class="project__img" src="imgs/Project/final.gif" alt="Wonderful-traveller">
+          <div class="project__description">
+            <h3>Final-Project</h3>
+            <span>Wonderful-traveller</span>
+          </div>
+        </a>
+        <!-- <a href="https://github.com/hyukeun" class="project" target="blank" data-type="Back-end">
+          <img class="project__img" src="imgs/Project/navbar.png" alt="navbar">
+          <div class="project__description">
+            <h3>navbar</h3>
+            <span>Clone Coding</span>
+          </div>
+        </a> -->
       </div>
     </div>
-  </div>
-
-  <hr>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <!-- <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; EUNHYUK's Website 2021</p>
-        </div>
-      </div>
+  </section>
+  <!-- Contact -->
+  <section id="Contact" class="section">
+    <h1 class="contact__title">CONTACT</h1>
+    <h2 class="contact__email">klauterkeit@gmail.com</h2>
+    <div class="contact__links">
+      <a href="https://github.com/hyukeun" target="_blank">
+        <i class="fab fa-github-alt"></i>
+      </a>
     </div>
-  </footer>
+    <p class="contact__rights">&#169; 2021 Eunhyuk's Portfolio</p>
+  </section>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/clean-blog.min.js"></script>
-
+  <!-- Arrow up -->
+  <button class='arrow-up'>
+    <i class="fas fa-arrow-up"></i>
+  </button>
 </body>
 
 </html>
